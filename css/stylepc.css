@@ -1,0 +1,183 @@
+body{
+		margin: 0;
+		padding:0;
+	}	
+h1{
+	
+	margin-top: 20px;
+	
+}
+	.container{
+		font-family: 微软雅黑;
+		background: #fff;
+		padding-top: 20px;
+		margin:20px auto;
+		overflow: hidden;
+		/* border: 1px solid red; */
+	}
+
+	.container .menu{
+		width: 200px;
+		margin-left: 160px;
+		float: left;
+		border-right: 1px solid #aaa;
+		/* border: 1px red solid; */
+	}
+/*position 菜单背景图标*/
+	.positionIicon{
+		display: inline block;
+		width: 32px;
+		height: 32px;
+		margin: 0px 4px;
+		float: left;
+		margin-right: 10px;
+	}
+/*menu图标*/
+	.q-menu-img{
+		background: url("../img/iconfont-wenti.png");
+		
+	}
+	
+	.q-menu-doit{
+		background: url("../img/iconfont-0bangzhushouce.png");
+	}
+
+	.q-menu-three{
+		background: url("../img/iconfont-kuaisulu.png");
+		
+	}
+
+
+	.container .menu h3{
+		font-size: 20px;
+		cursor: pointer;
+	}
+    .container .menu ul{
+        display: none;
+    }
+	.container .menu ul li{
+		width: 90%;
+		height: 28px;
+		line-height: 28px;
+	}
+
+	.container .menu ul li a:hover{
+		background: #9FB6CD;
+		border-radius: 14px;
+		-webkit-border-radius: 14px;
+		-moz-border-radius: 14px;
+		-moz-border-radius:14px;
+		color:#fff;
+	
+	
+	}
+
+	ul{
+		list-style: none;
+	}
+
+ a{
+		text-decoration: none;
+		color: #000;
+		font-size: 14px;
+		display: block;
+		width: 130px;
+		height: 26px;
+		padding-left: 10px;
+	}
+
+	.container .menu .selected{
+		background: #ccc;
+		border-radius: 14px;
+		/*过渡
+		 第一个参数：指定给特定的属性变换执行过渡
+		 过渡时间
+		 过渡速度 linear匀速  ease 一开始比较慢，逐渐变快，最后又变慢*/
+		transition: all  2s linear;
+	}
+
+	 .container .content{
+		margin-top: 15px;
+		width: 860px;
+		margin-left: 430px;
+	
+	}
+
+	.container .content .get-menu{
+		/* position: relative; */
+		margin-left: -10px;
+	}
+
+	.container .content .get-menu a{
+		display: inline-block;
+		font-size: 15px;
+		height: 40px;
+		width: 180px;
+	}
+	.container .content .get-menu .score{
+		position: absolute; /*确定跳出弹框后，分数那一栏位置不会上移*/
+		display: inline-block;
+		font-size: 15px;
+		height: 40px;
+	}
+
+	.container .content .get-menu a:last-child{
+		margin-left: -8px;
+		color: #7D9EC0;
+	}
+
+	.container .content .get-menu span{
+		display: inline-block;
+	    height: 40px;
+	    margin-left: -110px;
+	}
+
+    .questionsBox ul{
+		width: 90%;
+		margin-top: 2px;
+		margin-left: -40px;
+		/* border: 1px solid black; */
+
+	}
+	.item{
+	   display: inline-block;
+	   width: 13%;
+	   height: 30px;
+	   line-height: 30px;
+	   margin-right: -25px;
+	   /* border: 1px red solid; */
+
+	}
+	.handInput{
+	    display: inline-block;
+		width: 40px;
+		margin-left: 28px;
+		margin-right: 100px;
+		
+	
+	}
+	.submitBtn{
+		position: relative;
+		left: 30%;
+		width: 100px;
+		height: 30px;
+		/* margin-left : -50px; */
+	    outline: none;
+		border-radius: 10px;
+		cursor: pointer;
+	}
+	.A1{
+		color: #9FB6CD;
+	}
+
+	.asserBtn{
+		position: relative;
+		display: block;
+		left: 30%;
+		width: 100px;
+		height: 30px;
+		margin-top: 10px;
+		outline: none;
+		border-radius: 10px;
+		cursor: pointer;
+	}

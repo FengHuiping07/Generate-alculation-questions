@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>随机生成口算题</title>
+<script src="js/jquery-latest.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" type="text/css" href="css/stylepc.css">
+</head>
+<body>
+	
+	<h1 align="center">口算习题集</h1>
+<div class="container">
+	<div class="menu">
+		<h3><i class="q-menu-img positionIicon"></i>新手入门</h3>
+		<ul class="ulmenu1">
+			<li class="NewAdd"><a  href="#tab1">加法习题</a></li>
+			<li class="NewSub"><a href="#">减法习题</a></li>
+			<li class="NewMul"><a href="#">乘法习题</a></li>
+			<li class="NewDiv"><a href="#">除法习题</a></li>
+			<!-- <li class="NewHun"><a href="#">混合习题</a></li> -->
+			
+		</ul>
+		<h3><i class="q-menu-doit positionIicon"></i>老手提升</h3>
+		<ul class="ulmenu2">
+			<li class="middleAdd"><a href="#" class="selected">加法习题</a></li>
+			<li class="middleSub"><a href="#">减法习题</a></li>
+			<li class="middleMul"><a href="#">乘法习题</a></li>
+			<li class="middleDiv"><a href="#">除法习题</a></li>
+			<!-- <li><a href="#">混合习题</a></li> -->
+		</ul>
+
+		<h3><i class="q-menu-three positionIicon"></i>高手挑战</h3>
+		<ul class="ulmenu3">
+			<li class="heightAdd"><a class="selected" href="#tab1">加法习题</a></li>
+			<li class="heightSub"><a href="#">减法习题</a></li>
+			<li class="heightMul"><a href="#">乘法习题</a></li>
+			<li class="heightDiv"><a href="#">除法习题</a></li>
+			<!-- <li><a href="#">混合习题</a></li> -->
+		</ul>
+	</div>
+	
+	<div class="content">
+		<div class="get-menu">
+			<a href="#">你已选择</a>
+			<span>></span>
+			<a class="A1" href="#">请在左边栏选择题目</a>
+			<span class="score"></span>
+		</div>
+
+		<div class="questionsBox">
+			<ul>
+
+			</ul>
+		</div>
+
+	</div>
+</div>
+
+<script type="text/javascript" src="js/styleChange.js"></script>
+<script type="text/javascript" src="js/test.js"></script>
+
+
+</body>
+</html>
